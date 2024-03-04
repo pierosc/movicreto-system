@@ -1,0 +1,12 @@
+.animated-icon-button *:last-child path {
+    /* Estilos para el path */
+    fill: rgb(15,15,15); /* Cambia el color de relleno a rojo, por ejemplo */
+    /* stroke: #000000; Cambia el color del borde a negro, por ejemplo */
+    /* Agrega más estilos según tus necesidades */
+}
+.animated-icon-button-disabled *:last-child path {
+    /* Estilos para el path */
+    fill: rgba(0, 0, 0, 0.26); /* Cambia el color de relleno a rojo, por ejemplo */
+    /* stroke: #000000; Cambia el color del borde a negro, por ejemplo */
+    /* Agrega más estilos según tus necesidades */
+}

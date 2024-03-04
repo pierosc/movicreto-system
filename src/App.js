@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import ExcelToJson from "./pages/ExcelToJson";
+import DataTable from "./pages/DataTable";
+import Chart from "./pages/Chart";
 
 function App() {
+  const [data, setData] = useState([]);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +20,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <ExcelToJson setData={setData} />
+        <Chart />
+        <div style={{ overflow: "auto", maxHeight: "60vh" }}>
+          <DataTable dataFromExcel={data} />
+        </div>
       </header>
+      {/* <ExcelToJson /> */}
     </div>
   );
 }
