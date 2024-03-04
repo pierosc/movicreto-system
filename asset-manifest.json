@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movicreto-system/static/css/main.1fc2f355.css",
+    "main.js": "/movicreto-system/static/js/main.743bc5ff.js",
+    "static/js/453.b593f5d3.chunk.js": "/movicreto-system/static/js/453.b593f5d3.chunk.js",
+    "index.html": "/movicreto-system/index.html",
+    "main.1fc2f355.css.map": "/movicreto-system/static/css/main.1fc2f355.css.map",
+    "main.743bc5ff.js.map": "/movicreto-system/static/js/main.743bc5ff.js.map",
+    "453.b593f5d3.chunk.js.map": "/movicreto-system/static/js/453.b593f5d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fc2f355.css",
+    "static/js/main.743bc5ff.js"
+  ]
+}
